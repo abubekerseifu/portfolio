@@ -14,9 +14,7 @@
     "format": "prettier --write src",
     "up": "yarn upgrade-interactive",
     "up-latest": "yarn up --latest",
-    "release": "cross-env HUSKY=0 standard-version",
-    "push-release": "git push --follow-tags origin main",
-    "prepare": "husky install"
+    "push-release": "git push --follow-tags origin main"
   },
   "dependencies": {
     "@chakra-ui/react": "^2.0.2",
@@ -40,7 +38,6 @@
     "eslint": "^8.15.0",
     "eslint-config-next": "^12.1.6",
     "eslint-config-sznm": "^1.0.0",
-    "husky": "^8.0.1",
     "lint-staged": "^12.4.1",
     "next-sitemap": "^2.5.20",
     "prettier": "^2.6.2",
